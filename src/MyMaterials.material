@@ -1,0 +1,542 @@
+material Picture/Block1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block1.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block2.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block3.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block4.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block5.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block6.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block7
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block7.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block8
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block8.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Paddle
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+			texture_unit
+			{
+				texture paddle.png
+            	alpha_op_ex source1 src_manual src_current 0.4
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block9
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block9.png
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block10
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block10.png
+
+			}
+		}
+	}
+}
+
+material Picture/Block11
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block11.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Block12
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block12.jpg
+
+			}
+		}
+	}
+}
+material Picture/Block13
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block13.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Block14
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block14.jpg
+
+			}
+		}
+	}
+}
+
+
+
+material CPresser/SemiClearRed
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 1 0 0
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+material Picture/Ivaylo
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ivaylo.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Kim
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture kim.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Kann
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture kann.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Presser
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture presser.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Neller
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture neller.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Glat
+{
+	technique
+	{
+		pass
+		{
+ 
+			texture_unit
+			{
+			
+				texture glat.jpg
+			}
+		}
+	}
+}
+
+material CPresser/SemiClearGreen
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 0 1 0
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearBlue
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 0 0 1
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearYellow
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 1 1 0
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearPurple
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 1 0 1
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearCyan
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 0 1 1
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+material CPresser/Red
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 0 
+		}
+	}
+}
+
+material CPresser/Green
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 1 0 
+		}
+	}
+}
+
+material CPresser/Blue
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0 1
+		}
+	}
+}
+
+material CPresser/Yellow
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 0 
+		}
+	}
+}
+
+material CPresser/Purple
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 1 
+		}
+	}
+}
+
+material CPresser/Cyan
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 1 1
+		}
+	}
+}
+
+material CPresser/Maze
+{
+	technique 
+	{
+		pass 
+		{
+		   texture_unit
+		   {
+			texture maze-16-bw.png		   
+		   }
+		}
+	}
+}
+
+material CPresser/Chrome
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Chrome.jpg
+				scale 2 2
+			}
+				
+		}
+	}
+}

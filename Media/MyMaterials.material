@@ -1,0 +1,569 @@
+//This is from http://www.ogre3d.org/tikiwiki/Materials
+
+material Picture/Block1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block1.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/PurpleWall
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture purplewall.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/GoldenWall
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture goldenwall.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Ceiling
+{
+	technique
+	{
+		pass
+		{
+			scene_blend colour_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture Water02.jpg
+				env_map spherical
+				scroll_anim 0.01 0.01
+				rotate_anim 0.03
+			}
+		}
+	}
+}
+
+material Picture/Floor
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BeachStones.jpg
+				scale 0.25 0.25
+			}
+
+			texture_unit
+			{
+				texture Water01.jpg
+				env_map spherical
+				scroll_anim 0.01 0.01
+			}
+		}
+	}
+}
+
+material Picture/RearWall
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				texture clouds.jpg
+				scroll_anim 0.15 0
+			}
+		}
+	}
+}
+
+material Picture/Block2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block2.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block3.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block4.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block5.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block6.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block7
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block7.jpg
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block8
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block8.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Ball
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ball.jpg
+			}
+
+			texture_unit
+			{
+				texture spheremap.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+	}
+}
+
+
+material Picture/Paddle
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+			texture_unit
+			{
+				texture paddle.jpg
+            	alpha_op_ex source1 src_manual src_current 0.4
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block9
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block9.png
+
+			}
+		}
+	}
+}
+
+
+material Picture/Block10
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block10.png
+
+			}
+		}
+	}
+}
+
+material Picture/Block11
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block11.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Block12
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block12.jpg
+
+			}
+		}
+	}
+}
+material Picture/Block13
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block13.jpg
+
+			}
+		}
+	}
+}
+
+material Picture/Block14
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture block14.jpg
+
+			}
+		}
+	}
+}
+
+
+
+material CPresser/SemiClearRed
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 1 0 0
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearGreen
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 0 1 0
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearBlue
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 0 0 1
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearYellow
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 1 1 0
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearPurple
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 1 0 1
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearCyan
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 0 1 1
+            	alpha_op_ex source1 src_manual src_current 0.5
+       		}
+		
+		}
+	}
+}
+
+material CPresser/Red
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 0 
+		}
+	}
+}
+
+material CPresser/Green
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 1 0 
+		}
+	}
+}
+
+material CPresser/Blue
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0 1
+		}
+	}
+}
+
+material CPresser/Yellow
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 0 
+		}
+	}
+}
+
+material CPresser/Purple
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 1 
+		}
+	}
+}
+
+material CPresser/Cyan
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 1 1
+		}
+	}
+}
+
+material CPresser/Maze
+{
+	technique 
+	{
+		pass 
+		{
+		   texture_unit
+		   {
+			texture maze-16-bw.png		   
+		   }
+		}
+	}
+}
+
+material CPresser/Chrome
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Chrome.jpg
+				scale 2 2
+			}
+				
+		}
+	}
+}
