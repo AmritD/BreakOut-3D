@@ -9,5 +9,3 @@ Here are some screenshots from the game:
 ![Level Up Dialog](./Screenshots/Level_Up.png)
 ![High Score Dispaly](./Screenshots/High_Score.png)
 ![Game Over Dialog](./Screenshots/Game_Over.png)
-
-*I have used Glossy Serpent theme for CEGUI which is released under <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a> and can be download for free from <a href="https://sourceforge.net/projects/glossyserpent/" target="_blank">here</a>.*
